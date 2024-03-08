@@ -129,6 +129,40 @@ Description("CharName is x" + "CharName enjoys x" + "CharName wants x" + "CharNa
 ]
 ```
 
+### Character: 
+The name of the character. Gives a lot of info though not just the name of them. If for example the name is Vladimir the LLM will take it as Eastern European male. it is best to use multiple words for character name such as vladimir the hitman to give a lot more context
+
+### Species: 
+The species of your character. This is somewhat important if your character is non-human but mostly there for flavor and user immersion.
+
+### Age: 
+Age of the character. You can use both "19" and "19 years old" to reinforce the bot's age. Again a flavor category and optional.
+
+### Physical Appearance: 
+Features of the character. Here is where you put Hair Color, Eye Color, any markings, etc. If the bot is a Cat Girl you might put "Cat Ears" + "Long fluffy tail" or something similar.You would also describe the physical makeup of the character. This is their height, weight, complexion and build. Note: The bot will likely not be able to discern height vs the user unless specifically stated. If you just want to make clear the character is taller than user putting bots name is taller than user in Description category will help with that.
+
+### Mind: 
+This is where character traits will go. Examples of traits are "Loving" + "Caring" + "Helpful" + "Honest". Ideally put synonyms of traits you really want to shine together. So "Honest" + "Truthful" is going to reinforce that the character is very honest. I do not recommend mixing positive traits with their antonyms. This category should be exactly the same Personality.
+
+### Personality: 
+Reinforces the traits from Mind. Should be an exact duplicate of Mind. There is no difference between the two categories and both are used to reinforce traits.
+
+### Loves: 
+What your character loves. Generally is picked up well by the bot as the favors positive words. Examples might include "Carrots" + "Riding a bike" + "Eating ice cream".
+
+### Hates: 
+This category is not recommended for models because the bot does not favor negative phrases. However this is here as an optional category for flavor or in the future if a new models become less biased towards positivity (custom model).
+
+### Description: 
+One of the most important categories. Here you will describe additional information about your character. I recommend using Characters Name in front of what you are describing so the bot directly associates it with the character. So if our character name is Joe, we would put something like...
+
+"Joe loves riding his motorcycle" + "Joe is a skilled fisherman" + "Joe is friends with Jennifer" + "Joe is an undercover agent"
+
+By describing things in this way, you are letting the bot know more about "Joe" himself and those things will be brought up as you talk with the bot. Try to flesh out this category as best as you can as the core of your bot's identity is going to come from here.
+
+### Additional info
+You can also add any additional descriptors as it processes and tries to understand it all. 
+
 The `+` symbols are used to explain different things that can be put in it. When writing, please stick to writing with commas.
 
 That should cover the entirety of the character creation process. Please take a look at a few example characters created that use features that you would want.
